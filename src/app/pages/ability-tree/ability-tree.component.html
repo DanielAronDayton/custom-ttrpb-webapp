@@ -3,7 +3,7 @@
   <body>
     <script>0</script>
     <div id="app" style="position: relative;">
-        <p-dropdown id="tree-selector-dropdown" [options]="abilityData" optionLabel="name"></p-dropdown>
+        <p-dropdown id="tree-selector-dropdown" [options]="abilityData" optionLabel="name" placeholder="Select an Ability Tree" (onChange)="SelectAbilityTree($event.value)"></p-dropdown>
       <div id="ability-view" style="position: relative;">
         <div id="button-holder"></div>
         <canvas id="ability-canvas" style="position: relative;"></canvas>
