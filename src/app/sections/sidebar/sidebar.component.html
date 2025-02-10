@@ -1,0 +1,10 @@
+<div class="sidebar">
+    <h2>
+        Pages:
+    </h2>
+    <ul class="nav">
+        <li class="nav-item" *ngFor="let route of routes">
+            <h3><a class="nav-link" href="#" [routerLink]="route.path">{{ route.title }}</a></h3>
+        </li>
+   </ul>
+</div>

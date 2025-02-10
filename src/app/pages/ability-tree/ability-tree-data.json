@@ -1,0 +1,1938 @@
+[{
+    "name": "Elemental Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": true,
+    "children": [
+        {
+            "name": "Ignition",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Short Range Ignition",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Medium Range Ignition",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Far Range Ignition",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Gout of Flames",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Control Flames",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Wall of Fire",
+                            "description": "Cover an object (This can include a weapon or body part) in magical flames. These flames do not harm the target, but do deal an extra damage to anything that touches the object. \r\nIf used on a weapon, deal an extra 1 heat damage on a successful attack. If used on an object, (TODO: Finish this)",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        },
+                        {
+                            "name": "Wreathed in Flame",
+                            "description": "Cover an object (This can include a weapon or body part) in magical flames. These flames do not harm the target, but do deal an extra damage to anything that touches the object. \r\nIf used on a weapon, deal an extra 1 heat damage on a successful attack. If used on an object, (TODO: Finish this)",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Small Explosion",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Medium Explosion",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Large Explosion",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Combustion",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+                
+            ]
+        },
+        {
+            "name": "Chill Touch",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Cone of Cold",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Ice Spike",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Ice Pillar",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Move Earth",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Stone Wall",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Stone Skin",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Petrify",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Breeze",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Gust",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Feather Fall",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Glide",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Grant Flight",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shape Water",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Produce Water",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Water Walking",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Water Breathing",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shocking Grasp",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Electric Arc",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Lightning Bolt",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        },
+                        {
+                            "name": "Ball Lightning",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+},
+{
+    "name": "Nature Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Plant Growth",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Animal companion",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Companion Trait: Tiny",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Large",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Flying",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Aquatic",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Powerful",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Tool Use",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Speaking",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Companion Trait: Telepathic Bond",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Companion Trait: Share Senses",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Locate",
+            "description": "(Find the closest generic example of a creature or object type within a relatively short range (any ring, any wolf, etc))",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Locate Specific Object",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Locate Specific Creature",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Locate At a Distance",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Locate Through Walls",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        }
+    ]
+},
+{
+    "name": "Mental Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Command",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Sleep",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Charm Person",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Suggestion",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Viscious Mockery",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Distraction",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Inspire",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Enhance Ability",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Figment",
+            "description": "(Make someone see an image out of the corner of their eye, or hear a quick sound. They cannot make out details)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Minor Illusion",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Major Illusion",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Disguise Self",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Alter Self",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Blur",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Minor Invisibility",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Major Invisibility",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Silent Message",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Telepathic Connection",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Telepathic Group",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        },
+                        {
+                            "name": "Send Dream",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Sending",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+},
+{
+    "name": "Fundamental Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Magic Missile",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Illuminate",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Darkvision",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Grant Darkvision",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        },
+                        {
+                            "name": "Orb of Darkness",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Animate Shadow",
+                                    "description": "(Your shadow can act semi-independently from you)",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": [
+                                        {
+                                            "name": "Shape Shadow",
+                                            "description": "",
+                                            "repeatable": "no",
+                                            "cost": 1,
+                                            "checked": false,
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Force Shield",
+            "description": "(Magically defend youself from damage)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Mage Armor",
+                    "description": "(Magically increase your armor long-term)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Grant Mage Armor",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Wall of force",
+                    "description": "(Create a stationary magical wall)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Mage Hand",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Levitate",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Telekenesis",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Compression",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Vitality Equalization",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Transposition",
+            "description": "(Short range teleport within sight)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Phase Through",
+                    "description": "(Very short range teleport through walls)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Directional Warp",
+                            "description": "(Increase range of phase-through)",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Dimension Door",
+                                    "description": "(Longer-range teleport in a direction)",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": [
+                                        {
+                                            "name": "Full Teleport",
+                                            "description": "(Teleport to any known location)",
+                                            "repeatable": "no",
+                                            "cost": 1,
+                                            "checked": false,
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reactive Transposition",
+                    "description": "(Teleport at the moment you would get hit)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Tele-Swap",
+                    "description": "(Swap places with a creature within sight)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Enlarge / Reduce",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Pause Time",
+            "description": "(Double your remianing AP for this round)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Meta Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 1,
+    "checked": false,
+    "children": [
+        {
+            "name": "Increased Mana Capacity",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Combat Mana Recovery",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Far Spell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Quick Spell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Subtle Spell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Empower Spell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Shape Spell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Discount Spell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Magic Circle",
+            "description": "(Store a spell in a glyph so it can be activated later)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Counter Spell",
+            "description": "(Try to stop a spell from being cast)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Consume Spell",
+                    "description": "(Recover some MP while counterig spell)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        }
+    ]
+},
+{
+    "name": "Occult Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Vitality Leach",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Vampire Bite",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Monsterous Appendage",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Beast Form (Land)",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Beast Form (Strong)",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        },
+                        {
+                            "name": "Beast Form (Flying)",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Beast Form (Water)",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Beast Form (Tiny)",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Risky Transfusion",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "HP to MP Conversion",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Rage",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Reckless Attack",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        }
+    ]
+},
+{
+    "name": "Enchantment Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": []
+},
+{
+    "name": "Vitality Magic",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Cure Light Wounds",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Healing Word",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Mass Healing Word",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Cure Deep Wounds",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Shallow Regeneration 1",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Shallow Regeneration 2",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Deep Regneration",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cure Poison or Disease",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Greater Cure",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": [
+                                {
+                                    "name": "Remove Minor Curse",
+                                    "description": "",
+                                    "repeatable": "no",
+                                    "cost": 1,
+                                    "checked": false,
+                                    "children": [
+                                        {
+                                            "name": "Remove Greater Curse",
+                                            "description": "",
+                                            "repeatable": "no",
+                                            "cost": 1,
+                                            "checked": false,
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Speak with Dead 1",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Brawling",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Fists of Steel",
+            "description": "(You can treat your unarmed attacks as weapons)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Long Limbs",
+                    "description": "(Longer range on unsarmed strikes)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Innate Range",
+                            "description": "(Unarmed ranged attack)",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Body of Steel",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Patient Defence",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Counter-Attack",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Catch Projectile",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Return to Sender",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Defend Ally",
+            "description": "(When an adjacent ally takes damage, you can take half of that damage instead of them)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Fighting Instinct",
+            "description": "(Stealth does not grant an enemy advantage on attack rolls against you)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Sturdy Frame",
+            "description": "(Increased carry weight and bonus to throwing creatures or heavy objects)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Melee Weapons",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Martial Weapon Training",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Cleaving Strike",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Parry Strike",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Tripping Strike",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Pushing Strike",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Light Armor Proficiency",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Shield Proficiency",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Heavy Armor Proficiency",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "Uncanny Dodge",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Break Concentration",
+            "description": "(Try to stop a mage from casting a spell)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Returning Weapon",
+            "description": "(Mark two weapons or items at the end of a rest, and call them to fly bac into your hand)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Recall Weapon",
+                    "description": "(Items or weapons teleport instead of flying)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "Reverse Recall",
+                            "description": "(You teleport to your weapon instead)",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "High-Velocity Return",
+                    "description": "(Returning weapon can deal damage in a straight line)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        }
+    ]
+},
+{
+    "name": "Ranged Weapons",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Hunter's Mark",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "HM Teamwork",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "HM Unending Pursuit",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "HM Clairvoyance",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "HM Extra Damage",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "HM 2 Targets",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "HM 3 Targets",
+                            "description": "",
+                            "repeatable": "no",
+                            "cost": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "HM Swap on Defeat",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "HM Target Objects",
+                    "description": "",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Projectile Volley",
+            "description": "(Spend extra AP to turn your ranged weapon into an AOE weapon)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Magic Ammunition",
+            "description": "(Spend AP instead of physical ammo)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Mobility",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Extra Movement",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Wall Running",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Power Slide",
+            "description": "(Spend some extra initial AP to move at double speed in a straight line)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "Bull Charge",
+                    "description": "(Damage all enemies in straight line and knock them back)",
+                    "repeatable": "no",
+                    "cost": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Precise Movement",
+            "description": "(Use dexterity for finesse weapons and climbing)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Crafting",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Simple Item Enchantment",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Stealth",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Sneak Attack 1",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Neutral",
+    "description": "",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Magic Resistance",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Power Napper",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Wild Magic",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Malus",
+    "description": "Negative abilities or weaknesses that give you an LP instead of costing one",
+    "repeatable": "no",
+    "cost": 0,
+    "checked": false,
+    "children": [
+        {
+            "name": "Phobia",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Crowd Anxiety",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Cowardice",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Elemental Weakness",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Holy Sensitivity",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Mana Allergy",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Small Stature",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Clumsy",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Topheavy",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Hemophilia",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Heart Condition",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Sickly",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Undead Nature",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Terminal Countdown",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Light Sensitivity",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Night Blindness",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Cursed Knowledge",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Immortal Enemy",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Otherworldly Contract",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Illiteracy",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Monsterous Appearance",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Narcolepsy",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Insomnia",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Unlucky",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Farsighted",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Nearsighted",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Hearty Apetite",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Identifiable Smell",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Bound by Honesty",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Semi-Amphibious",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+},
+{
+    "name": "Other / Unsorted",
+    "description": "",
+    "repeatable": "no",
+    "cost": 1,
+    "checked": false,
+    "children": [
+        {
+            "name": "Survival / Food creation",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Charismatic Spellcasting",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Dash Attack",
+            "description": "(Move and attack all enemies you some within melee range of)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Show Off",
+            "description": "(Inspire an ally anytime you get a crit on a skill you're trained in)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Roll D4's on crits instead of doubling",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Return Damage",
+            "description": "(Charge up damage and deal it back in one big attack or spell)",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Death Save Bonus",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        },
+        {
+            "name": "Limit Break",
+            "description": "",
+            "repeatable": "no",
+            "cost": 1,
+            "checked": false,
+            "children": []
+        }
+    ]
+}
+
+]

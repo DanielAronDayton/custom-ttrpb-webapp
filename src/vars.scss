@@ -1,0 +1,36 @@
+.dark-mode {
+    --main-background: #111111;
+    --main-header: white;
+    --main-text: white;
+
+    --toolbar-background: #1976d2;
+    --toolbar-text: white;
+
+    --sidebar-background: #222222;
+    --sidebar-text: white;
+}
+
+:root {
+    --main-background: white;
+    --main-header: black;
+    --main-text: black;
+
+    --toolbar-background: #1976d2;
+    --toolbar-text: white;
+
+    --sidebar-background: #abb3bb;
+    --sidebar-text: black;
+}
+
+
+// $is-light-theme:true;
+
+// $current-theme: if($is-light-theme, $theme-light, $theme-dark);
+
+// :export {
+//     lightTheme: $is-light-theme;
+// }
+
+// :root {
+//     --TEST: white;
+// }
