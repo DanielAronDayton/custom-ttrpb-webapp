@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
 // import { ResumeComponent } from './pages/resume/resume.component';
 import { AbilityTreeComponent } from './pages/ability-tree/ability-tree.component';
+import { RulesComponent } from './pages/rules/rules.component';
 
 const routes: Routes = [
-  { path: "", component: HomeComponent, title: "Home" },
-  // { path: "resume", component: ResumeComponent, title: "Resume"},
+  { path: "", component: RulesComponent, title: "Rules" },
   { path: "ability-tree", component: AbilityTreeComponent, title: "Ability Tree"}
 ];
 

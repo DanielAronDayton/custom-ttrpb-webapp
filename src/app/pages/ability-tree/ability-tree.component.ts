@@ -43,7 +43,7 @@ export class AbilityTreeComponent {
     this.ctx = this.canvas.getContext("2d");
     
     this.canvas.width = 1500;
-    this.canvas.height = 2000;
+    this.canvas.height = 2500; // TODO: Determine this programatically
 
     
 
@@ -64,6 +64,14 @@ export class AbilityTreeComponent {
     button.style.height = abilityHeight + sizeUnit;
     button.style.left = ((depth * (abilityWidth + abilityHorizontalSpace)) + abilityLeftMargin + sizeUnit);
     button.style.top = ((height * (abilityHeight + abilityVerticalSpace)) + abilityTopMargin + sizeUnit);
+    if (ability.traits == "undefined")
+    {
+      button.style.backgroundColor = "rgba(100,100,100,100)"
+    }
+
+    // if (((height + 1) * (abilityHeight + abilityVerticalSpace)) + abilityTopMargin > this.canvas!.height) {
+    //   this.canvas!.height = ((height + 1) * (abilityHeight + abilityVerticalSpace)) + abilityTopMargin;
+    // }
     // TODO: Add some of these to the stylesheet
     // TODO: Add onclick event
     // TODO: Maybe add icons to buttons?
@@ -104,11 +112,12 @@ export class AbilityTreeComponent {
   {
     this.ctx!.clearRect(0, 0, this.canvas!.width, this.canvas!.height);
     this.container!.innerHTML = ""; // Delete all existing buttons (?)
+    let height = 0;
 
-    // for (let index = 0; index < ability.children.length) {
-
-    // }
-    this.RecursivePlaceButtons(ability, 0, 0);
+    for (let index = 0; index < ability.children.length; index++) {
+      height = this.RecursivePlaceButtons(ability.children[index], 0, height);
+    }
+    
   }
 
   SelectAbilityTree(ability: Ability)
