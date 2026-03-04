@@ -3,7 +3,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -443,7 +443,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -643,6 +643,117 @@
                     "children": []
                 }
             ]
+        },
+        {
+            "name": "Hunter's Mark",
+            "ap": 0,
+            "mp": 0,
+            "range": "undefined",
+            "traits": "undefined",
+            "description": "",
+            "repeatable": "no",
+            "ability_points": 1,
+            "checked": false,
+            "children": [
+                {
+                    "name": "HM Teamwork",
+                    "ap": 0,
+                    "mp": 0,
+                    "range": "undefined",
+                    "traits": "undefined",
+                    "description": "",
+                    "repeatable": "no",
+                    "ability_points": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "HM Unending Pursuit",
+                    "ap": 0,
+                    "mp": 0,
+                    "range": "undefined",
+                    "traits": "undefined",
+                    "description": "",
+                    "repeatable": "no",
+                    "ability_points": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "HM Clairvoyance",
+                            "ap": 0,
+                            "mp": 0,
+                            "range": "undefined",
+                            "traits": "undefined",
+                            "description": "",
+                            "repeatable": "no",
+                            "ability_points": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "HM Extra Damage",
+                    "ap": 0,
+                    "mp": 0,
+                    "range": "undefined",
+                    "traits": "undefined",
+                    "description": "",
+                    "repeatable": "no",
+                    "ability_points": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "HM 2 Targets",
+                    "ap": 0,
+                    "mp": 0,
+                    "range": "undefined",
+                    "traits": "undefined",
+                    "description": "",
+                    "repeatable": "no",
+                    "ability_points": 1,
+                    "checked": false,
+                    "children": [
+                        {
+                            "name": "HM 3 Targets",
+                            "ap": 0,
+                            "mp": 0,
+                            "range": "undefined",
+                            "traits": "undefined",
+                            "description": "",
+                            "repeatable": "no",
+                            "ability_points": 1,
+                            "checked": false,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "HM Swap on Defeat",
+                    "ap": 0,
+                    "mp": 0,
+                    "range": "undefined",
+                    "traits": "undefined",
+                    "description": "",
+                    "repeatable": "no",
+                    "ability_points": 1,
+                    "checked": false,
+                    "children": []
+                },
+                {
+                    "name": "HM Target Objects",
+                    "ap": 0,
+                    "mp": 0,
+                    "range": "undefined",
+                    "traits": "undefined",
+                    "description": "",
+                    "repeatable": "no",
+                    "ability_points": 1,
+                    "checked": false,
+                    "children": []
+                }
+            ]
         }
     ]
 },
@@ -651,7 +762,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -928,7 +1039,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -1254,7 +1365,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 1,
@@ -1400,7 +1511,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -1562,7 +1673,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -1574,7 +1685,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -1739,7 +1850,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -1884,23 +1995,61 @@
     ]
 },
 {
-    "name": "Melee Weapons",
+    "name": "Martial Arts",
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
     "checked": false,
     "children": [
         {
+            "name": "Finesse",
+            "ap": 0,
+            "mp": 0,
+            "range": "undefined",
+            "traits": "attack",
+            "description": "When making an attack with a melee or thrown weapon with the 'light' property, you may make a dexterity check rather than strength for the attack.",
+            "repeatable": "no",
+            "ability_points": 1,
+            "checked": false,
+            "children": [
+                {
+                "name": "Find the Gap",
+                "ap": 0,
+                "mp": 0,
+                "range": "undefined",
+                "traits": "attack",
+                "description": "Melee weapons with the light property bypass a target's protection value up to your dexterity.",
+                "repeatable": "no",
+                "ability_points": 1,
+                "checked": false,
+                "children": [
+                    {
+                        "name": "Distant Precision",
+                        "ap": 0,
+                        "mp": 0,
+                        "range": "undefined",
+                        "traits": "attack",
+                        "description": "Your 'Find the Gap' ability now also applies to thrown and ranged weapons with the light property.",
+                        "repeatable": "no",
+                        "ability_points": 1,
+                        "checked": false,
+                        "children": []
+                    }
+                ]
+                }
+            ]
+        },
+        {
             "name": "Martial Weapon Training",
             "ap": 0,
             "mp": 0,
             "range": "undefined",
-            "traits": "undefined",
-            "description": "",
+            "traits": "attack",
+            "description": "Attacks with any weapons with the martial trait deal an extra 1 damage.",
             "repeatable": "no",
             "ability_points": 1,
             "checked": false,
@@ -2065,130 +2214,6 @@
                     "children": []
                 }
             ]
-        }
-    ]
-},
-{
-    "name": "Ranged Weapons",
-    "ap": 0,
-    "mp": 0,
-    "range": "undefined",
-    "traits": "undefined",
-    "description": "",
-    "repeatable": "no",
-    "ability_points": 0,
-    "checked": false,
-    "children": [
-        {
-            "name": "Hunter's Mark",
-            "ap": 0,
-            "mp": 0,
-            "range": "undefined",
-            "traits": "undefined",
-            "description": "",
-            "repeatable": "no",
-            "ability_points": 1,
-            "checked": false,
-            "children": [
-                {
-                    "name": "HM Teamwork",
-                    "ap": 0,
-                    "mp": 0,
-                    "range": "undefined",
-                    "traits": "undefined",
-                    "description": "",
-                    "repeatable": "no",
-                    "ability_points": 1,
-                    "checked": false,
-                    "children": []
-                },
-                {
-                    "name": "HM Unending Pursuit",
-                    "ap": 0,
-                    "mp": 0,
-                    "range": "undefined",
-                    "traits": "undefined",
-                    "description": "",
-                    "repeatable": "no",
-                    "ability_points": 1,
-                    "checked": false,
-                    "children": [
-                        {
-                            "name": "HM Clairvoyance",
-                            "ap": 0,
-                            "mp": 0,
-                            "range": "undefined",
-                            "traits": "undefined",
-                            "description": "",
-                            "repeatable": "no",
-                            "ability_points": 1,
-                            "checked": false,
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "name": "HM Extra Damage",
-                    "ap": 0,
-                    "mp": 0,
-                    "range": "undefined",
-                    "traits": "undefined",
-                    "description": "",
-                    "repeatable": "no",
-                    "ability_points": 1,
-                    "checked": false,
-                    "children": []
-                },
-                {
-                    "name": "HM 2 Targets",
-                    "ap": 0,
-                    "mp": 0,
-                    "range": "undefined",
-                    "traits": "undefined",
-                    "description": "",
-                    "repeatable": "no",
-                    "ability_points": 1,
-                    "checked": false,
-                    "children": [
-                        {
-                            "name": "HM 3 Targets",
-                            "ap": 0,
-                            "mp": 0,
-                            "range": "undefined",
-                            "traits": "undefined",
-                            "description": "",
-                            "repeatable": "no",
-                            "ability_points": 1,
-                            "checked": false,
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "name": "HM Swap on Defeat",
-                    "ap": 0,
-                    "mp": 0,
-                    "range": "undefined",
-                    "traits": "undefined",
-                    "description": "",
-                    "repeatable": "no",
-                    "ability_points": 1,
-                    "checked": false,
-                    "children": []
-                },
-                {
-                    "name": "HM Target Objects",
-                    "ap": 0,
-                    "mp": 0,
-                    "range": "undefined",
-                    "traits": "undefined",
-                    "description": "",
-                    "repeatable": "no",
-                    "ability_points": 1,
-                    "checked": false,
-                    "children": []
-                }
-            ]
         },
         {
             "name": "Projectile Volley",
@@ -2221,7 +2246,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -2295,7 +2320,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -2320,7 +2345,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -2345,7 +2370,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
@@ -2394,7 +2419,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "Negative abilities or weaknesses that give you an LP instead of ability_pointsing one",
     "repeatable": "no",
     "ability_points": 0,
@@ -2767,7 +2792,7 @@
     "ap": 0,
     "mp": 0,
     "range": "undefined",
-    "traits": "undefined",
+    "traits": "category",
     "description": "",
     "repeatable": "no",
     "ability_points": 1,
