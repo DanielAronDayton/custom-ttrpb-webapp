@@ -1,7 +1,6 @@
 export default interface Ability {
     name: string,
-    ap: number,
-    mp: number,
+    usage_cost: string,
     range: string,
     traits: string,
     description: string,
