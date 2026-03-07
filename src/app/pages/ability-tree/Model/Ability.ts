@@ -6,7 +6,6 @@ export default interface Ability {
     description: string,
     repeatable: string,
     ability_points: number,
-    checked: boolean,
     children: Ability[]
 } 
 

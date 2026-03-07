@@ -16,7 +16,6 @@
             "description": "Touch a target and deal 1 heat damage. If the target is a flammable object, ignite it as if by a match. If the target is a creature, requires an attack roll.",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Short Range Ignition",
@@ -26,7 +25,6 @@
                     "description": "You can now use your ignition at a range of 6 meters rather than touch.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Medium Range Ignition",
@@ -36,7 +34,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Far Range Ignition",
@@ -46,7 +43,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -59,7 +55,6 @@
                             "description": "All creatures in the cone make a Dodge check vs caster’s attack DC, taking 2 heat damage on a failure, 1 on a success, and 4 on a critical failure.",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -72,7 +67,6 @@
                     "description": "Manipulate an existing flame you can see within 9 meters. You can: Move a flame up to 3 meters (dealing 1 damage on contact with an attack roll), shape a flame into simple patterns, reduce or amplify the intensity of the flame, or snuff out a flame no larger than a  torch.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Wall of Fire",
@@ -82,7 +76,6 @@
                             "description": "Create a wall of fire 2 meters in height and 1 meter thick which partially obscures sight. The wall can be whatever shape you choose, but must have a total contiguous length of 5 meters or less, and every point along which must be within range.\r\nAny creature that begins their turn touching the wall or comes into contact with it during their turn must make a dodge check against your attack DC, taking 2 heat damage on a fail, 1 on a success, and 4 on a critical failure.\r\nEvery turn after the first, you must spend 1 AP concentrating on the effect, otherwise it dissapears.",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         },
                         {
@@ -93,7 +86,6 @@
                             "description": "Target one object of medium size or smaller, which becomes wreathed in special flames which do not harm the object. \r\nIf the target was a weapon, on a successful it the weapon deals 1 heat damage in addition to the weapons normal damage, and 2 additional damage on a critical hit.\r\nIf the target was a piece of armor, anyone who touches the person wearing the armor against their will or attacks them from within 2 meters will take 1 heat damage (after the instigating action).\r\nIf target is an object not being held or worn, anyone first attempting to touch it will take 1 heat damage. \r\nEvery turn after the first, you must spend 1 AP concentrating on the effect, otherwise it dissapears",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -106,7 +98,6 @@
                     "description": "Release a concussive burts of flame. Each creature within the shape (possibly including you and your allies) makes a dodge check against your attack DC, taking 2 heat damage on a failure, 1 on a success, and taking 4 heat damage and being pushed back 1 meter from the center of the burst on a critical failure.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Medium Explosion",
@@ -116,7 +107,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Large Explosion",
@@ -126,7 +116,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -141,7 +130,6 @@
                     "description": "Put more power into your ignition, allowing it to set a creature alight. On an attack roll, the creature takes 2 heat damage immediately, and 1 persistent heat damage. This damage can be stacked, but a creature cna also spend 2 AP to reduce the persistent damage by 1.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Pyro-Infusion",
@@ -151,7 +139,6 @@
                             "description": "When dealing heat damage, you can spend an additional 1 AP and 1 MP to deal an additional 1 persistent heat damage. This damage can be stacked, but a creature cna also spend 2 AP to reduce the persistent damage by 1.",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -167,7 +154,6 @@
             "description": "Touch one creature or object, and deal 1 cold damage with an attack roll. If the target is a damp creature, you have advantage on the attack roll.\r\nIf the targte is a damp object or surface, cover up to about 1 square meter of it in a thin layer of ice, making it slippery. Whenever a creature attempts to move across a slippery surface (once per action), they must make a dexterity check vs your attack DC. On a failure their movement ends, and on a critical failure they also fall prone.",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Cryo Spray",
@@ -177,7 +163,6 @@
                     "description": "All creatures in the cone make a Dodge check vs caster’s attack DC. On a success, they become chilled and will begin their next turn with 1 fewer AP. On a failure, they also take 1 cold damage. On a critical failure, they take 2 cold damage instead and their AP is reduced by 2. Any creatures who are damp have disadvantage on this save. Any damp surfaces in the area are covered in a thin layer of ice, as with chill touch.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -188,7 +173,6 @@
                     "description": "You manipulate water or ice into simple frozen shapes, which last until broken or melted. Some examples of how much ice you can shape in one turn are:\r\n- A single polearm, or two shorter simple tools.\r\n-Enough spikes to cover 1 square meter, capable of dealing 1 piercing damage for every meter traversed.\r\n- A 1 meter long bridge of ice, just wide enough to be walked on, and strong enough to support a medium creature.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Ice Pillar",
@@ -198,7 +182,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -213,7 +196,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Stone Wall",
@@ -223,7 +205,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -234,7 +215,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Petrify",
@@ -244,7 +224,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -259,7 +238,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Gust",
@@ -269,7 +247,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -280,7 +257,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Glide",
@@ -290,7 +266,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Grant Flight",
@@ -300,7 +275,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -317,7 +291,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Produce Water",
@@ -327,7 +300,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -338,7 +310,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Water Breathing",
@@ -348,7 +319,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -363,7 +333,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Electric Arc",
@@ -373,7 +342,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Lightning Bolt",
@@ -383,7 +351,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         },
                         {
@@ -394,7 +361,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -411,7 +377,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Plant Growth",
@@ -421,7 +386,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -432,7 +396,6 @@
             "description": "You can summoning an animal companion. This companion remains until dismissed (as a free action) or killed, and will follow your simple verbal commands to the best of its ability. Attempting to summon another companion will dismiss the first.\nWhile you can choose what physical animal form the companion takes, it will have the same stats. It is a medium-sized creature with +0 in all attributes.\nIt is a matter of flavor whether you summon a spirit to act as your companion, create a new creature from mechanical parts, train an existing animal, or something else. It is also a matter of flavor whether, when killed, the companion actually dies or is safely teleported to a pocket dimension.",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Companion Trait: Tiny",
@@ -442,7 +405,6 @@
                     "description": "When you summon your animal companion, you may choose to make them a tiny creature instead of medium, giving them +2 to their dexterity.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -453,7 +415,6 @@
                     "description": "When you summon your animal companion, you may choose to make them a large creature instead of medium, giving them +2 to their strength.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -464,7 +425,6 @@
                     "description": "When you summon your animal companion, you may choose to give them a fly at the same speed their walking speed.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -475,7 +435,6 @@
                     "description": "When you summon your animal companion, you may choose to give them a swim at the same speed their walking speed, and give them the ability to breathe underwater.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -486,7 +445,6 @@
                     "description": "(TODO: Give companion a more powerful attack)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -497,7 +455,6 @@
                     "description": "When you summon your animal companion, you may choose to give them the ability to use intricate tools and other things that would require opposable thumbs on the same level as a human.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -508,7 +465,6 @@
                     "description": "When you summon your animal companion, you may choose to give them the ability to speak and understand any langauges that you know.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -519,7 +475,6 @@
                     "description": "When you summon your animal companion, you may choose to give them the ability to speak with you telepathically, up to a range of 900 feet",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Companion Trait: Share Senses",
@@ -529,7 +484,6 @@
                             "description": "If you give your companion the telepathic bond ability, you can also percieve through its senses while it is within range. While percieving through its senses in this way, you cannot percieve through any of your own body's sene, but use your own perception skill when making any perception checks through your companion.",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -544,7 +498,6 @@
             "description": "(Find the closest generic example of a creature or object type within a relatively short range (any ring, any wolf, etc))",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Locate Specific Object",
@@ -554,7 +507,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -565,7 +517,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -576,7 +527,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -587,51 +537,67 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
         },
         {
             "name": "Hunter's Mark",
-            "usage_cost": "",
-            "range": "",
-            "traits": "undefined",
-            "description": "",
+            "usage_cost": "3 AP, 2 MP",
+            "range": "60 feet",
+            "traits": "concentration",
+            "description": "You mark a creature you cans see within range as your target. While marked, you have advantage on attacks against that creature. This mark expires after 10 minutes, or once the creature leaves the range. You can only have one hunter's mark active at a time, and applying a second one removes the first.",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
-                    "name": "HM Teamwork",
-                    "usage_cost": "",
+                    "name": "HM Partner",
+                    "usage_cost": "3 extra AP",
                     "range": "",
-                    "traits": "undefined",
-                    "description": "",
+                    "traits": "concentration",
+                    "description": "When you mark a creature, you may spend 3 extra AP to designate one ally as a hunter, allowing them to also gain the advantage granted by your hunter's mark grants.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
-                    "children": []
+                    "children": [
+                        {
+                        "name": "HM Teamwork",
+                        "usage_cost": "1 extra AP per ally",
+                        "range": "",
+                        "traits": "concentration",
+                        "description": "Rather than costing 2 additional AP to designate one ally as a hunter, you may spend 1 AP per ally you would like to designate as a hunter, each of whom now also gains the advantage granted by your hunter's mark grants.",
+                        "repeatable": "no",
+                        "ability_points": 1,
+                        "children": []
+                        }
+                    ]
                 },
                 {
-                    "name": "HM Unending Pursuit",
+                    "name": "HM Pursuit",
                     "usage_cost": "",
                     "range": "",
-                    "traits": "undefined",
-                    "description": "",
+                    "traits": "concentration",
+                    "description": "Your hunter's mark now has a range of one mile, and a duration of 24 hours. You have advantage on any checks made to track or find the target.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
+                        {
+                        "name": "HM Unending Persuit",
+                        "usage_cost": "",
+                        "range": "",
+                        "traits": "concentration",
+                        "description": "Your hunter's mark now has an unlimited range and duration.",
+                        "repeatable": "no",
+                        "ability_points": 1,
+                        "children": []
+                        },
                         {
                             "name": "HM Clairvoyance",
                             "usage_cost": "",
                             "range": "",
-                            "traits": "undefined",
-                            "description": "",
+                            "traits": "concentration",
+                            "description": "You now always know the general direction of the target of your hunter's mark, roughly how far away they are from you, and you always know what percentage of their HP they are missing.",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -640,32 +606,29 @@
                     "name": "HM Extra Damage",
                     "usage_cost": "",
                     "range": "",
-                    "traits": "undefined",
-                    "description": "",
+                    "traits": "concentration",
+                    "description": "Whenever you damage your marked target, deal an additional 50% of the original damage, rounded up. If you have the HM Partner or HM Teamwork abilities, your designated allies also benefit from this extra damage.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
                     "name": "HM 2 Targets",
                     "usage_cost": "",
                     "range": "",
-                    "traits": "undefined",
-                    "description": "",
+                    "traits": "concentration",
+                    "description": "You may now have two hunter's marks simultaniously on different creatures. This requires using the ability again, spending all required AP and MP for the second target.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "HM 3 Targets",
                             "usage_cost": "",
                             "range": "",
-                            "traits": "undefined",
-                            "description": "",
+                            "traits": "concentration",
+                            "description": "You may now have three hunter's marks simultaniously on different creatures.",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -674,11 +637,10 @@
                     "name": "HM Swap on Defeat",
                     "usage_cost": "",
                     "range": "",
-                    "traits": "undefined",
-                    "description": "",
+                    "traits": "concentration",
+                    "description": "If the target of your hunter's mark dies or falls unconscious, you may spend 1 MP and 1 AP as a reaction to reapply the mark to a different creature you can see within range.",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -689,7 +651,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -704,7 +665,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Command",
@@ -714,7 +674,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Sleep",
@@ -724,7 +683,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -737,7 +695,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Suggestion",
@@ -747,7 +704,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -760,7 +716,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Distraction",
@@ -770,7 +725,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -783,7 +737,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Enhance Ability",
@@ -793,7 +746,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -806,7 +758,6 @@
             "description": "(Make someone see an image out of the corner of their eye, or hear a quick sound. They cannot make out details)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Minor Illusion",
@@ -816,7 +767,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Major Illusion",
@@ -826,7 +776,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -839,7 +788,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Alter Self",
@@ -849,7 +797,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -862,7 +809,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Minor Invisibility",
@@ -872,7 +818,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Major Invisibility",
@@ -882,7 +827,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -899,7 +843,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Telepathic Connection",
@@ -909,7 +852,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Telepathic Group",
@@ -919,7 +861,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         },
                         {
@@ -930,7 +871,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Sending",
@@ -940,7 +880,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -959,7 +898,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Magic Missile",
@@ -969,7 +907,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -980,7 +917,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Darkvision",
@@ -990,7 +926,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Grant Darkvision",
@@ -1000,7 +935,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         },
                         {
@@ -1011,7 +945,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Animate Shadow",
@@ -1021,7 +954,6 @@
                                     "description": "(Your shadow can act semi-independently from you)",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": [
                                         {
                                             "name": "Shape Shadow",
@@ -1031,7 +963,6 @@
                                             "description": "",
                                             "repeatable": "no",
                                             "ability_points": 1,
-                                            "checked": false,
                                             "children": []
                                         }
                                     ]
@@ -1050,7 +981,6 @@
             "description": "(Magically defend youself from damage)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Mage Armor",
@@ -1060,7 +990,6 @@
                     "description": "(Magically increase your armor long-term)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Grant Mage Armor",
@@ -1070,7 +999,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -1083,7 +1011,6 @@
                     "description": "(Create a stationary magical wall)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1096,7 +1023,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Levitate",
@@ -1106,7 +1032,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Telekenesis",
@@ -1116,7 +1041,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -1129,7 +1053,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Vitality Equalization",
@@ -1139,7 +1062,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -1154,7 +1076,6 @@
             "description": "(Short range teleport within sight)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Phase Through",
@@ -1164,7 +1085,6 @@
                     "description": "(Very short range teleport through walls)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Directional Warp",
@@ -1174,7 +1094,6 @@
                             "description": "(Increase range of phase-through)",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Dimension Door",
@@ -1184,7 +1103,6 @@
                                     "description": "(Longer-range teleport in a direction)",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": [
                                         {
                                             "name": "Full Teleport",
@@ -1194,7 +1112,6 @@
                                             "description": "(Teleport to any known location)",
                                             "repeatable": "no",
                                             "ability_points": 1,
-                                            "checked": false,
                                             "children": []
                                         }
                                     ]
@@ -1211,7 +1128,6 @@
                     "description": "(Teleport at the moment you would get hit)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1222,7 +1138,6 @@
                     "description": "(Swap places with a creature within sight)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1235,7 +1150,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1246,7 +1160,6 @@
             "description": "(Double your remianing AP for this round)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -1259,7 +1172,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Increased Mana Capacity",
@@ -1269,7 +1181,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1280,7 +1191,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1291,7 +1201,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1302,7 +1211,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1313,7 +1221,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1324,7 +1231,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1335,7 +1241,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1346,7 +1251,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1357,7 +1261,6 @@
             "description": "(Store a spell in a glyph so it can be activated later)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1368,7 +1271,6 @@
             "description": "(Try to stop a spell from being cast)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Consume Spell",
@@ -1378,7 +1280,6 @@
                     "description": "(Recover some MP while counterig spell)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1393,7 +1294,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Vitality Leach",
@@ -1403,7 +1303,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Vampire Bite",
@@ -1413,7 +1312,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1426,7 +1324,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Beast Form (Land)",
@@ -1436,7 +1333,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Beast Form (Strong)",
@@ -1446,7 +1342,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         },
                         {
@@ -1457,7 +1352,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -1470,7 +1364,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1481,7 +1374,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1494,7 +1386,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "HP to MP Conversion",
@@ -1504,7 +1395,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1517,7 +1407,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Reckless Attack",
@@ -1527,7 +1416,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1542,7 +1430,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Cure Light Wounds",
@@ -1552,7 +1439,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Healing Word",
@@ -1562,7 +1448,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Mass Healing Word",
@@ -1572,7 +1457,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Cure Deep Wounds",
@@ -1582,7 +1466,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -1597,7 +1480,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Shallow Regeneration 2",
@@ -1607,7 +1489,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Deep Regneration",
@@ -1617,7 +1498,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": []
                                 }
                             ]
@@ -1632,7 +1512,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Greater Cure",
@@ -1642,7 +1521,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": [
                                 {
                                     "name": "Remove Minor Curse",
@@ -1652,7 +1530,6 @@
                                     "description": "",
                                     "repeatable": "no",
                                     "ability_points": 1,
-                                    "checked": false,
                                     "children": [
                                         {
                                             "name": "Remove Greater Curse",
@@ -1662,7 +1539,6 @@
                                             "description": "",
                                             "repeatable": "no",
                                             "ability_points": 1,
-                                            "checked": false,
                                             "children": []
                                         }
                                     ]
@@ -1681,7 +1557,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -1694,7 +1569,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Fists of Steel",
@@ -1704,7 +1578,6 @@
             "description": "(You can treat your unarmed attacks as weapons)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Long Limbs",
@@ -1714,7 +1587,6 @@
                     "description": "(Longer range on unsarmed strikes)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Innate Range",
@@ -1724,7 +1596,6 @@
                             "description": "(Unarmed ranged attack)",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -1739,7 +1610,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1750,7 +1620,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Counter-Attack",
@@ -1760,7 +1629,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1771,7 +1639,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Return to Sender",
@@ -1781,7 +1648,6 @@
                             "description": "",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -1796,7 +1662,6 @@
             "description": "(When an adjacent ally takes damage, you can take half of that damage instead of them)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1807,7 +1672,6 @@
             "description": "(Stealth does not grant an enemy advantage on attack rolls against you)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1818,7 +1682,6 @@
             "description": "(Increased carry weight and bonus to throwing creatures or heavy objects)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -1831,7 +1694,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Finesse",
@@ -1841,7 +1703,6 @@
             "description": "When making an attack with a melee or thrown weapon with the 'light' property, you may make a dexterity check rather than strength for the attack.",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                 "name": "Find the Gap",
@@ -1851,7 +1712,6 @@
                 "description": "Melee weapons with the light property bypass a target's protection value up to your dexterity.",
                 "repeatable": "no",
                 "ability_points": 1,
-                "checked": false,
                 "children": [
                     {
                         "name": "Distant Precision",
@@ -1861,7 +1721,6 @@
                         "description": "Your 'Find the Gap' ability now also applies to thrown and ranged weapons with the light property.",
                         "repeatable": "no",
                         "ability_points": 1,
-                        "checked": false,
                         "children": []
                     }
                 ]
@@ -1876,7 +1735,6 @@
             "description": "Attacks with any weapons with the martial trait deal an extra 1 damage.",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Cleaving Strike",
@@ -1886,7 +1744,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1897,7 +1754,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1908,7 +1764,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1919,7 +1774,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1932,7 +1786,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Shield Proficiency",
@@ -1942,7 +1795,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1953,7 +1805,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 },
                 {
@@ -1964,7 +1815,6 @@
                     "description": "",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -1977,7 +1827,6 @@
             "description": "(Try to stop a mage from casting a spell)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -1988,7 +1837,6 @@
             "description": "(Mark two weapons or items at the end of a rest, and call them to fly bac into your hand)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Recall Weapon",
@@ -1998,7 +1846,6 @@
                     "description": "(Items or weapons teleport instead of flying)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": [
                         {
                             "name": "Reverse Recall",
@@ -2008,7 +1855,6 @@
                             "description": "(You teleport to your weapon instead)",
                             "repeatable": "no",
                             "ability_points": 1,
-                            "checked": false,
                             "children": []
                         }
                     ]
@@ -2021,7 +1867,6 @@
                     "description": "(Returning weapon can deal damage in a straight line)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -2034,7 +1879,6 @@
             "description": "(Spend extra AP to turn your ranged weapon into an AOE weapon)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2045,7 +1889,6 @@
             "description": "(Spend AP instead of physical ammo)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -2058,7 +1901,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Extra Movement",
@@ -2068,7 +1910,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2079,7 +1920,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2090,7 +1930,6 @@
             "description": "(Spend some extra initial AP to move at double speed in a straight line)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": [
                 {
                     "name": "Bull Charge",
@@ -2100,7 +1939,6 @@
                     "description": "(Damage all enemies in straight line and knock them back)",
                     "repeatable": "no",
                     "ability_points": 1,
-                    "checked": false,
                     "children": []
                 }
             ]
@@ -2113,7 +1951,6 @@
             "description": "(Use dexterity for finesse weapons and climbing)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -2126,7 +1963,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Simple Item Enchantment",
@@ -2136,7 +1972,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -2149,7 +1984,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Sneak Attack 1",
@@ -2159,7 +1993,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -2172,7 +2005,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Magic Resistance",
@@ -2182,7 +2014,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2193,7 +2024,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2204,7 +2034,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -2217,7 +2046,6 @@
     "description": "Negative abilities or weaknesses that give you an LP instead of ability_pointsing one",
     "repeatable": "no",
     "ability_points": 0,
-    "checked": false,
     "children": [
         {
             "name": "Phobia",
@@ -2227,7 +2055,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2238,7 +2065,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2249,7 +2075,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2260,7 +2085,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2271,7 +2095,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2282,7 +2105,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2293,7 +2115,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2304,7 +2125,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2315,7 +2135,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2326,7 +2145,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2337,7 +2155,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2348,7 +2165,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2359,7 +2175,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2370,7 +2185,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2381,7 +2195,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2392,7 +2205,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2403,7 +2215,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2414,7 +2225,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2425,7 +2235,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2436,7 +2245,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2447,7 +2255,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2458,7 +2265,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2469,7 +2275,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2480,7 +2285,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2491,7 +2295,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2502,7 +2305,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2513,7 +2315,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2524,7 +2325,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2535,7 +2335,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2546,7 +2345,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
@@ -2559,7 +2357,6 @@
     "description": "",
     "repeatable": "no",
     "ability_points": 1,
-    "checked": false,
     "children": [
         {
             "name": "Survival / Food creation",
@@ -2569,7 +2366,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2580,7 +2376,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2591,7 +2386,6 @@
             "description": "(Move and attack all enemies you some within melee range of)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2602,7 +2396,6 @@
             "description": "(Inspire an ally anytime you get a crit on a skill you're trained in)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2613,7 +2406,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2624,7 +2416,6 @@
             "description": "(Charge up damage and deal it back in one big attack or spell)",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2635,7 +2426,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         },
         {
@@ -2646,7 +2436,6 @@
             "description": "",
             "repeatable": "no",
             "ability_points": 1,
-            "checked": false,
             "children": []
         }
     ]
