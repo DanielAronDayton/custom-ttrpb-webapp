@@ -34,6 +34,7 @@ export class AbilityTreeComponent {
   canvas: HTMLCanvasElement | null = null;
   ctx: CanvasRenderingContext2D | null = null;
   maxHeightReached: number = 0;
+  treeLines: [number, number][][] = [];
 
   constructor(private dialog: Dialog) {}
 
@@ -45,7 +46,7 @@ export class AbilityTreeComponent {
     this.ctx = this.canvas.getContext("2d");
     
     this.canvas.width = 1500;
-    this.canvas.height = 2500;
+    // this.canvas.height = 2500;
     this.maxHeightReached = 0;
     // Render the tree
     if (this.abilityData.length > 0) {
@@ -85,28 +86,21 @@ export class AbilityTreeComponent {
     }
     else {
       let maxHeight = height;
-      let path: Path2D = new Path2D();
-      this.ctx!.strokeStyle = "rgba(255,0,0,255)";
-      this.ctx!.lineWidth = 5;
-      
       for (let index = 0; index < ability.children.length; index++) {
         if (index == 0) {
-          this.ctx!.beginPath();
-          path.moveTo(((depth * (abilityWidth + abilityHorizontalSpace)) + abilityWidth), ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2)));
-          path.lineTo((((depth + 1) * (abilityWidth + abilityHorizontalSpace))), ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2)));
-          this.ctx!.closePath();
+          this.treeLines.push([
+            [((depth * (abilityWidth + abilityHorizontalSpace)) + abilityWidth), ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2))], 
+            [(((depth + 1) * (abilityWidth + abilityHorizontalSpace))), ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2))]]);
         }
         else {
-          this.ctx!.beginPath();
-          path.moveTo(((depth * (abilityWidth + abilityHorizontalSpace)) + abilityWidth + (abilityHorizontalSpace * 0.5)), ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2)));
-          path.lineTo(((depth * (abilityWidth + abilityHorizontalSpace)) + abilityWidth + (abilityHorizontalSpace * 0.5)), (((maxHeight) * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2)));
-          path.lineTo((((depth + 1) * (abilityWidth + abilityHorizontalSpace))), (((maxHeight) * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2)));
-          this.ctx!.closePath();
+          this.treeLines.push([
+            [((depth * (abilityWidth + abilityHorizontalSpace)) + abilityWidth + (abilityHorizontalSpace * 0.5)), ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2))], 
+            [((depth * (abilityWidth + abilityHorizontalSpace)) + abilityWidth + (abilityHorizontalSpace * 0.5)), (((maxHeight) * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2))],
+            [(((depth + 1) * (abilityWidth + abilityHorizontalSpace))), (((maxHeight) * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2))]]);
         }
 
         maxHeight = this.RecursivePlaceButtons(ability.children[index], depth + 1, maxHeight);
       }
-      this.ctx!.stroke(path);
       return maxHeight;
     }
   }
@@ -120,6 +114,7 @@ export class AbilityTreeComponent {
   }
 
   CreateAbilityTree(ability: Ability): void {
+    this.treeLines = [];
     this.ctx!.clearRect(0, 0, this.canvas!.width, this.canvas!.height);
     this.container!.innerHTML = "";
     this.maxHeightReached = 0;
@@ -132,6 +127,24 @@ export class AbilityTreeComponent {
     // Set canvas height to fit all content with padding
     this.canvas!.height = this.maxHeightReached + 50;
     this.container!.style.height = this.canvas!.height + sizeUnit;
+
+    // Draw lines between buttons
+    this.ctx!.strokeStyle = "rgba(255,0,0,255)";
+    this.ctx!.lineWidth = 5;
+    let path: Path2D = new Path2D();
+    for (let lineIndex = 0; lineIndex < this.treeLines.length; lineIndex++)
+    {
+      this.ctx!.beginPath();
+      path.moveTo(this.treeLines[lineIndex][0][0], this.treeLines[lineIndex][0][1]);
+      console.log("Line from " + this.treeLines[lineIndex][0][0] + ", " + this.treeLines[lineIndex][0][1] + "...");
+      for (let pointIndex = 1; pointIndex < this.treeLines[lineIndex].length; pointIndex++)
+      {
+        path.lineTo(this.treeLines[lineIndex][pointIndex][0], this.treeLines[lineIndex][pointIndex][1]);
+        console.log("\tTo Drawing line from " + this.treeLines[lineIndex][pointIndex][0] + ", " + this.treeLines[lineIndex][pointIndex][1]);
+      }
+      this.ctx!.closePath();
+    }
+    this.ctx!.stroke(path);
   }
 
   SelectAbilityTree(ability: Ability): void {
