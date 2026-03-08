@@ -15,6 +15,8 @@ import { AbilityTreeComponent } from './pages/ability-tree/ability-tree.componen
 import { DropdownModule } from 'primeng/dropdown';
 import { FormsModule } from '@angular/forms';
 import { RulesComponent } from './pages/rules/rules.component';
+import { AbilityPopupComponent } from './sections/ability-popup/ability-popup.component';
+import { DialogModule } from '@angular/cdk/dialog';
 
 
 @NgModule({
@@ -23,6 +25,7 @@ import { RulesComponent } from './pages/rules/rules.component';
     // ResumeComponent,
     AbilityTreeComponent,
     RulesComponent,
+    AbilityPopupComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { RulesComponent } from './pages/rules/rules.component';
     SidebarModule,
     FooterModule,
     DropdownModule,
-    FormsModule
+    FormsModule,
+    DialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
