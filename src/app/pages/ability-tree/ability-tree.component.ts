@@ -34,7 +34,6 @@ export class AbilityTreeComponent {
   container: HTMLDivElement | null = null;
   canvas: HTMLCanvasElement | null = null;
   ctx: CanvasRenderingContext2D | null = null;
-  maxHeightReached: number = 0;
   treeLines: [number, number][][] = [];
   ref: DynamicDialogRef | undefined;
 
@@ -47,9 +46,8 @@ export class AbilityTreeComponent {
     var dropdown = document.getElementById("tree-selector-dropdown") as DropdownModule;
     this.ctx = this.canvas.getContext("2d");
     
-    this.canvas.width = 1500;
-    // this.canvas.height = 2500;
-    this.maxHeightReached = 0;
+    this.canvas.width = 1500; // TODO: Calculate canvas width dynamically
+
     // Render the tree
     if (this.abilityData.length > 0) {
       this.CreateAbilityTree(this.abilityData[0]);
@@ -71,12 +69,6 @@ export class AbilityTreeComponent {
     button.addEventListener('click', () => {
       this.openAbilityPopup(ability);
     });
-    
-    // Track the maximum height needed
-    const buttonBottomPosition = (height + 1) * (abilityHeight + abilityVerticalSpace) + abilityTopMargin;
-    if (buttonBottomPosition > this.maxHeightReached) {
-      this.maxHeightReached = buttonBottomPosition;
-    }
 
     // Grey out unfinished abilities - TODO: Change color based on whether the ability is purchased or not
     if (ability.traits == "undefined") {
@@ -107,30 +99,26 @@ export class AbilityTreeComponent {
     }
   }
 
-  // openAbilityPopup(ability: Ability): void {
-  //   this.dialog.open(AbilityPopupComponent, {
-  //     data: ability,
-  //     width: '500px',
-  //     panelClass: 'ability-popup-dialog'
-  //   });
-  // }
-
   openAbilityPopup(ability: Ability): void {
   this.ref = this.dialogService.open(AbilityPopupComponent, {
     header: ability.name,
     width: '80%',
     height: '80%',
+    styleClass: 'popup',
+    // contentStyle: {
+    //   'background-color': 'var(--popup-background)',
+    //   'color': 'var(--popup-text)'
+    // },
     data: {
       ability: ability
     }
-  });
-}
+    });
+  }
 
   CreateAbilityTree(ability: Ability): void {
     this.treeLines = [];
     this.ctx!.clearRect(0, 0, this.canvas!.width, this.canvas!.height);
     this.container!.innerHTML = "";
-    this.maxHeightReached = 0;
 
     let height = 0;
     for (let index = 0; index < ability.children.length; index++) {
@@ -138,8 +126,7 @@ export class AbilityTreeComponent {
     }
 
     // Set canvas height to fit all content with padding
-    this.canvas!.height = this.maxHeightReached + 50;
-    this.container!.style.height = this.canvas!.height + sizeUnit;
+    this.canvas!.height = ((height * (abilityHeight + abilityVerticalSpace)) + (abilityHeight / 2));
 
     // Draw lines between buttons
     this.ctx!.strokeStyle = "rgba(255,0,0,255)";
