@@ -1,22 +1,15 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['../../../styles.scss']
 })
-export class HeaderComponent implements AfterViewInit {
-  //appTheme: string | null = null;
-  //rootselector = document.querySelector(':root')!;
+export class HeaderComponent {
+  constructor(private themeService: ThemeService) {}
 
-  ngAfterViewInit(): void {
-    
-  }
-
-  ToggleTheme() {
-    //this.rootselector = getComputedStyle(document.querySelector(':root')!);
-    document.body.classList.toggle("dark-mode");
-    //this.appTheme = document.documentElement.style.getPropertyValue("dark-mode");
-    //console.log("App theme:", this.appTheme);
+  ToggleTheme(): void {
+    this.themeService.toggleTheme();
   }
 }

@@ -35,6 +35,22 @@ body {
     padding: 0px;
 }
 
+.popup {
+    background: var(--popup-background);
+    color: var(--popup-text);
+}
+
+.popup .p-dialog-content {
+    background: var(--popup-background);
+    color: var(--popup-text);
+}
+
+.popup .p-dialog-header {
+    background: var(--toolbar-background);
+    color: var(--toolbar-text);
+    margin-bottom: 1%;
+}
+
 .spacer {
     flex: 1;
 }
@@ -309,3 +325,5 @@ a:hover,
 a:active {
     color: var(--main-text);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,32 @@
+<div class="ability-popup">
+        <div>
+            <strong for="usage_cost">Usage Cost:</strong>
+            <span id="usage_cost">
+                {{ ability!.usage_cost }}
+            </span>
+        </div>
+        <div>
+            <strong for="range">Range:</strong>
+            <span id="range">
+                {{ ability!.range }}
+            </span>
+        </div>
+        <div>
+            <strong for="traits">Traits:</strong>
+            <span id="traits">
+                {{ ability!.traits }}
+            </span>
+        </div>
+        <div>
+            <strong for="ability_points">Ability Points:</strong>
+            <span id="ability_points">
+                {{ ability!.ability_points }}
+            </span>
+        </div>
+        <div>
+            <strong for="description">Description:</strong>
+            <span id="description">
+                {{ ability!.description || 'No description available.' }}
+            </span>
+        </div>
+</div>
