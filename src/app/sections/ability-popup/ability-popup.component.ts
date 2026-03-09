@@ -1,19 +1,26 @@
-import { Component, Inject } from '@angular/core';
-import { DIALOG_DATA, DialogRef } from '@angular/cdk/dialog';
+import { Component } from '@angular/core';
 import Ability from '../../pages/ability-tree/Model/Ability';
+import { DynamicDialogConfig, DynamicDialogRef } from 'primeng/dynamicdialog';
 
 @Component({
   selector: 'app-ability-popup',
   templateUrl: './ability-popup.component.html',
-  styleUrls: ['./ability-popup.component.scss']
+  styleUrls: ['./ability-popup.component.scss'],
 })
 export class AbilityPopupComponent {
+
+  ability!: Ability;
+
   constructor(
-    public dialogRef: DialogRef<void>,
-    @Inject(DIALOG_DATA) public ability: Ability
-  ) {}
+    public ref: DynamicDialogRef,
+    public config: DynamicDialogConfig
+  ) {
+    this.ability = this.config.data.ability;
+  }
 
   close(): void {
-    this.dialogRef.close();
+    this.ref.close();
   }
 }
+
+// TODO: Make the popup work with dark mode

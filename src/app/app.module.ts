@@ -16,8 +16,10 @@ import { DropdownModule } from 'primeng/dropdown';
 import { FormsModule } from '@angular/forms';
 import { RulesComponent } from './pages/rules/rules.component';
 import { AbilityPopupComponent } from './sections/ability-popup/ability-popup.component';
-import { DialogModule } from '@angular/cdk/dialog';
-
+import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from 'primeng/button';
+import { Input } from '@angular/core';
+import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
 
 @NgModule({
   declarations: [
@@ -36,9 +38,13 @@ import { DialogModule } from '@angular/cdk/dialog';
     FooterModule,
     DropdownModule,
     FormsModule,
-    DialogModule
+    DialogModule,
+    ButtonModule,
+    DynamicDialogModule
   ],
-  providers: [],
+  providers: [
+    DialogService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -9,6 +9,7 @@ import _abilityData from "./ability-tree-data.json";
 import { NonNullAssert } from '@angular/compiler';
 import { Dialog } from '@angular/cdk/dialog';
 import { AbilityPopupComponent } from 'src/app/sections/ability-popup/ability-popup.component';
+import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
 
 // Constant Definitions
 
@@ -35,8 +36,9 @@ export class AbilityTreeComponent {
   ctx: CanvasRenderingContext2D | null = null;
   maxHeightReached: number = 0;
   treeLines: [number, number][][] = [];
+  ref: DynamicDialogRef | undefined;
 
-  constructor(private dialog: Dialog) {}
+  constructor(private dialogService: DialogService) {}
 
   ngAfterViewInit() {
     // Setup
@@ -55,7 +57,7 @@ export class AbilityTreeComponent {
   }
 
   RecursivePlaceButtons(ability: Ability, depth: number, height: number): number {
-    let button = document.createElement("button");
+    let button = document.createElement("button"); // TODO: Swap out buttons for p-buttons?
     this.container!.appendChild(button);
     button.textContent = ability.name;
     button.style.position = "absolute";
@@ -67,7 +69,7 @@ export class AbilityTreeComponent {
 
     // Add click handler
     button.addEventListener('click', () => {
-      this.openAbilityDetail(ability);
+      this.openAbilityPopup(ability);
     });
     
     // Track the maximum height needed
@@ -105,13 +107,24 @@ export class AbilityTreeComponent {
     }
   }
 
-  openAbilityDetail(ability: Ability): void {
-    this.dialog.open(AbilityPopupComponent, {
-      data: ability,
-      width: '500px',
-      panelClass: 'ability-detail-dialog'
-    });
-  }
+  // openAbilityPopup(ability: Ability): void {
+  //   this.dialog.open(AbilityPopupComponent, {
+  //     data: ability,
+  //     width: '500px',
+  //     panelClass: 'ability-popup-dialog'
+  //   });
+  // }
+
+  openAbilityPopup(ability: Ability): void {
+  this.ref = this.dialogService.open(AbilityPopupComponent, {
+    header: ability.name,
+    width: '80%',
+    height: '80%',
+    data: {
+      ability: ability
+    }
+  });
+}
 
   CreateAbilityTree(ability: Ability): void {
     this.treeLines = [];

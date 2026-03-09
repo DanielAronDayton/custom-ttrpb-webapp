@@ -1,32 +1,33 @@
-<div class="ability-detail">
-  <h2>{{ ability.name }}</h2>
-  
-  <div class="stats">
-    <div class="stat">
-      <strong>Usage Costs:</strong> {{ ability.usage_cost }}
-    </div>
-    <div class="stat">
-      <strong>Range:</strong> {{ ability.range }}
-    </div>
-    <div class="stat">
-      <strong>Traits:</strong> {{ ability.traits }}
-    </div>
-    <div class="stat">
-      <strong>Ability Points:</strong> {{ ability.ability_points }}
-    </div>
-  </div>
-
-  <div class="description">
-    <h3>Description</h3>
-    <p>{{ ability.description || 'No description available.' }}</p>
-  </div>
-
-  <div *ngIf="ability.children && ability.children.length > 0" class="children">
-    <h3>Unlocks:</h3>
-    <ul>
-      <li *ngFor="let child of ability.children">{{ child.name }}</li>
-    </ul>
-  </div>
-
-  <button (click)="close()" class="close-btn">Close</button>
+<div class="ability-popup">
+        <div>
+            <strong for="usage_cost">Usage Cost:</strong>
+            <span id="usage_cost">
+                {{ ability!.usage_cost }}
+            </span>
+        </div>
+        <div>
+            <strong for="range">Range:</strong>
+            <span id="range">
+                {{ ability!.range }}
+            </span>
+        </div>
+        <div>
+            <strong for="traits">Traits:</strong>
+            <span id="traits">
+                {{ ability!.traits }}
+            </span>
+        </div>
+        <div>
+            <strong for="ability_points">Ability Points:</strong>
+            <span id="ability_points">
+                {{ ability!.ability_points }}
+            </span>
+        </div>
+        <div>
+            <strong for="description">Description:</strong>
+            <span id="description">
+                {{ ability!.description || 'No description available.' }}
+            </span>
+        </div>
+        <p-button (click)="close()" class="close-btn">Close</p-button>
 </div>
